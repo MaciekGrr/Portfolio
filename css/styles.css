@@ -1,0 +1,190 @@
+
+
+
+html,body {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #2d3c49;
+}
+
+
+header {
+    text-align: right;
+    display: block;
+    font-size: 24px;
+    font-weight: 300;
+    height: auto;
+    border-color: #7d97ad;
+    border-bottom-style: solid;
+    border-width: medium;
+    width: 100%;
+}
+
+p {
+  padding: 10px 10px 5px;
+  margin: 0;
+  font-size: 22px;
+  font-weight: 300;
+  height: auto;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.bold  {
+    font-weight: 500;
+}
+
+.logo .header {
+  display: inline-block;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 100px;
+  width: 100px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+}
+
+section {
+  width: 100%;
+}
+
+.picWinter {
+  display: none;
+}
+
+.animals {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.photos {
+min-width: 240px;
+margin: 0 0.5em 0;
+}
+
+.images {
+  width: 30%;
+  width: 320px;
+  height: auto;
+}
+
+.footer {
+    display:block;
+    background-color: #02b3e4;
+    text-align: center;
+    font-size: 16px;
+    padding: 15px;
+}
+
+.container {
+  margin: 0 0 15px;
+
+}
+.containerDesc {
+    text-align: center;
+}
+/*  max-width: 385px; height: 35vh;
+.intro em {
+  color: #3ee6bf;
+  font-style: normal;
+  position: relative;
+  font-weight: 700;
+}
+
+*/
+/*  padding-right: 25%;    deleted  */
+/*  max-width: 385px; height: 35vh; */
+
+@media screen and (min-width: 640px) {
+
+  .picWinter {
+    display: block;
+    width: 100%;
+    min-width: 320px;
+    max-width: 640px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+  }
+
+.header, .container, .footer {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+      font-size: 28px;
+  }
+
+p {
+    font-size: 26px;
+}
+
+.footer {
+    font-size: 20px;
+  }
+
+
+}
+
+@media screen and (min-width: 1150px) {
+
+.relative {
+  position: relative;
+  top: -20px;
+  left: -10px;
+}
+
+  .logo {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      height: 120px;
+      width: 120px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+
+  .picWinter {
+    max-width: 1400px;
+}
+
+.images {
+  width: 30%;
+  width: 640px;
+  height: auto;
+}
+
+.photos {
+min-width: 360px;}
+
+header {
+      font-size: 34px;
+  }
+
+p {
+    font-size: 32px;
+}
+
+.footer {
+    font-size: 26px;
+    margin-top: 3em;
+  }
+
+  .header, .container, .footer {
+    max-width: 2000px;
+}
