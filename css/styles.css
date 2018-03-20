@@ -67,10 +67,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .picture {
-  background-color: #02b3e4;
+  width: 320px;
   margin: 20px auto;
   /* center this div */
-  width: 320px;
   /* center this div */
 }
 
@@ -121,11 +120,7 @@ footer {
     margin-right: auto;
     padding: 1.5em;
   }
-  .picture {
-    background-color: #02b3e4;
-    margin: 20px auto;
-    /* center this div */
-  }
+
   .animals {
     margin: 20px 0.5em;
     width: auto;
@@ -137,12 +132,26 @@ footer {
     font-size: 20px;
     margin-top: 1em;
   }
+  .animals {
+    margin: 20px auto;
+    width: auto;
+  }
+  .photos {
+    width: 30%;
+    margin: 0 auto;
+    height: auto;
+    padding: 1em;
+  }
 }
 
 @media screen and (min-width: 980px) {
   .picWinter {
     width: 400px;
   }
+  .picture {
+    width: 400px;
+  /* center this div */
+}
   .images {
     width: 310px;
     margin: 20px auto;
@@ -167,18 +176,13 @@ footer {
     height: 120px;
     width: 120px;
   }
+
+
 }
 
-@media screen and (min-width: 1025px) {
-  .animals {
-    margin: 20px auto;
-    width: auto;
-  }
-  .photos {
-    width: 30%;
-    height: auto;
-    padding: 1em;
-  }
+@media screen and (min-width: 1275px) {
+
+
   .images {
     min-width: 400px;
     width: 420px;
@@ -191,6 +195,10 @@ footer {
     width: 500px;
     padding: 0px;
   }
+  .picture {
+    width: 500px;
+  /* center this div */
+}
   .images {
     width: 470px;
   }
